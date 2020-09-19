@@ -89,17 +89,62 @@
 ##หาเบอร์โทรใน Database
 
 ##หาชื่อต่ามเบอร์โทรใน Database
-phonenumber = ['Bung', '0619506364'],['Pa1pai', '0995554456']
+#phonenumber = ['Bung', '0619506364'],['Pa1pai', '0995554456']
 
-def Selectname(n):
-    for p in phonenumber:
-        name = p[0]
-        phone = p[1]
-        if n == phone:
-            print(name)
-            break
+#def Selectname(n):
+#    for p in phonenumber:
+#        name = p[0]
+#        phone = p[1]
+#        if n == phone:
+#            print(name)
+#            break
 
-n = input("inputphone : ")
-Selectname(n);
+#n = input("inputphone : ")
+#Selectname(n);
 
 ##หาชื่อต่ามเบอร์โทรใน Database
+
+
+
+
+##============= สร้างรถ #=============
+
+#class studentcar:
+#    def __init__(self,brand,horsePower,color, dance):
+#        self.brand = brand
+#        self.horsePower = horsePower
+#        self.color = color
+#        self.dance = dance
+#        self.currentPosition = 0
+#        self.much = [10]
+
+#    def buy(self,howmuch):
+#        self.much.append = howmuch
+
+#Bung = studentcar("honda",350,"white","Yes")
+#print(Bung.color)
+#hm = int(input("please in put How much : "))
+#Bung.buy(hm)
+#print(Bung.much)
+
+##============= สร้างรถ #=============
+#alphabet = input("input alphabet : ")
+
+def find_alphabet():
+    n = 0
+    nameList = ["Mike", "Winn", "Eak", "Non"]
+    maxstring = len(nameList)
+    print("Max is : " + str(maxstring))
+    namelist = str(input("Input Alphabet : "))
+    for i in nameList:
+
+        if next < maxstring:
+            test = len(nameList)
+            print(test)
+
+            next = next + 1
+            print(next)
+        if next == maxstring:
+            print("Complete.")
+
+find_alphabet()
