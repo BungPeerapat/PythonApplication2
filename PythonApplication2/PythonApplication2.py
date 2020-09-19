@@ -23,8 +23,9 @@ def calculator():
     z = int(1)
 
     while z <= y:
-        print(x , " * " , z , " = " , x*z)
-        z = z + 1
+        if name == "Break":
+            print(type(name))
+            break
     
         if z == y:
             print("my name is {}".format(name))
@@ -32,6 +33,8 @@ def calculator():
 
             print("your age is : " + myage[11])
             print("===========================")
+            print(x , " * " , z , " = " , x*z)
+            z = z + 1
             calculator()
 
 calculator()
