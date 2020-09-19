@@ -51,18 +51,34 @@
 #///////////////////////////////////////////// หาค่าตัวเลข
 
 
-## การบ้านหาค่าสูงสุดใน List
+### การบ้านหาค่าสูงสุดใน List
 
-listnumber = [1,54,4,87,4,5,7,6,98,6,45,87,243,987,1,]
-listmax = 0
+#listnumber = [1,54,4,87,4,5,7,6,98,6,45,87,243,987,1,]
+#listmax = 0
 
-print(listnumber)
-print("=================================")
-for n in listnumber:
-    if n > listmax:
-        listmax = n
-        print(n)
-print("=================================")
-print("Max Number in listnumber is : " , listmax)
+#print(listnumber)
+#print("=================================")
+#for n in listnumber:
+#    print("=================================")
+#    print(n)
+#    print("=================================")
+#    if n > listmax:
+#        listmax = n
+#        print(n)
+#print("=================================")
+#print("Max Number in listnumber is : " , listmax)
+
+##///////////////////////////////////////////// หาค่าตัวเลข
 
 
+phonenumber = ['Bung', '0619506364'],['Pa1pai', '0995554456']
+
+def Selectnumber(s):
+    for n in phonenumber:
+        name = n[0]
+        phone = n[1]
+        if s == name:
+            print(phone)
+            break
+s = input("Inputname : ")
+Selectnumber(s)
