@@ -53,7 +53,7 @@
 
 ## การบ้านหาค่าสูงสุดใน List
 
-listnumber = [1,54,4,87,4,5,7,6,98,6]
+listnumber = [1,54,4,87,4,5,7,6,98,6,45,87,243,987,1,]
 listmax = 0
 
 print(listnumber)
@@ -61,6 +61,8 @@ print("=================================")
 for n in listnumber:
     if n > listmax:
         listmax = n
+        print(n)
+print("=================================")
 print("Max Number in listnumber is : " , listmax)
 
 
