@@ -71,14 +71,35 @@
 ##///////////////////////////////////////////// หาค่าตัวเลข
 
 
+##หาเบอร์โทรใน Database
+
+
+#phonenumber = ['Bung', '0619506364'],['Pa1pai', '0995554456']
+
+#def Selectnumber(s):
+#    for n in phonenumber:
+#        name = n[0]
+#        phone = n[1]
+#        if s == name:
+#            print(phone)
+#            break
+#s = input("Inputname : ")
+#Selectnumber(s)
+
+##หาเบอร์โทรใน Database
+
+##หาชื่อต่ามเบอร์โทรใน Database
 phonenumber = ['Bung', '0619506364'],['Pa1pai', '0995554456']
 
-def Selectnumber(s):
-    for n in phonenumber:
-        name = n[0]
-        phone = n[1]
-        if s == name:
-            print(phone)
+def Selectname(n):
+    for p in phonenumber:
+        name = p[0]
+        phone = p[1]
+        if n == phone:
+            print(name)
             break
-s = input("Inputname : ")
-Selectnumber(s)
+
+n = input("inputphone : ")
+Selectname(n);
+
+##หาชื่อต่ามเบอร์โทรใน Database
